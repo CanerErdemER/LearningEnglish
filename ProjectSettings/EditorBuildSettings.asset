@@ -24,9 +24,9 @@ EditorBuildSettings:
     path: Assets/Scenes/match_scene.unity
     guid: 53069cbea9784574c9b5dada844cffbe
   - enabled: 1
-    path: Assets/Scenes/search_scene 1.unity
+    path: Assets/Scenes/search/search_scene 1.unity
     guid: 368a78aa08fd95043a516f5f26ffe4b4
-  - enabled: 0
-    path: Assets/Scenes/SampleScene.unity
-    guid: 1704de8d8d1462e42b4b858ff8dc8078
+  - enabled: 1
+    path: Assets/Scenes/search/search_exercise_scene.unity
+    guid: bbf9d33887a757345ba32a29ac84957e
   m_configObjects: {}
