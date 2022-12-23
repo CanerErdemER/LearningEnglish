@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using DG.Tweening;
+using UnityEngine.SceneManagement;
 
 public class SearchExerciesesManager : MonoBehaviour
 {
@@ -59,6 +60,10 @@ public class SearchExerciesesManager : MonoBehaviour
     {
         StopAllSounds();
         makeAsound();
+    }
+    public void menureturn()
+    {
+        SceneManager.LoadScene("Search_scene 1");
     }
 
 }
